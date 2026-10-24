@@ -7,6 +7,13 @@
     "cover": "covers/castelvania.jpg"
   },
   {
+    "id": "Baldurs Gate",
+    "title": "baldurs",
+    "system": "gba",
+    "rom": "roms/Baldurs.gba",
+    "cover": "covers/baldurs.jpg"
+  },
+  {
     "id": "mario-kart-ds",
     "title": "Mario Kart DS",
     "system": "ds",
