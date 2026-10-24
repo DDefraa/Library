@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La mia sala giochi</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>🎮 La mia sala giochi</h1>
+    <div class="filters">
+      <button class="chip active" data-filter="all">Tutti</button>
+      <button class="chip" data-filter="ds">Nintendo DS</button>
+      <button class="chip" data-filter="gba">Game Boy Advance</button>
+    </div>
+    <input type="search" id="search" placeholder="Cerca un gioco…">
+  </header>
+
+  <main>
+    <div id="grid" class="grid"></div>
+    <p id="empty" class="empty" hidden>Nessun gioco trovato.</p>
+  </main>
+
+  <script src="js/library.js"></script>
+</body>
+</html>

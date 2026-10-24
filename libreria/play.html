@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gioca</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="play-page">
+  <header class="topbar">
+    <a href="index.html" class="back">← Libreria</a>
+    <h1 id="game-title">Caricamento…</h1>
+    <label class="local-load">
+      📂 Carica ROM dal PC
+      <input type="file" id="local-rom" accept=".nds,.gba,.zip" hidden>
+    </label>
+  </header>
+
+  <main class="player-wrap">
+    <div id="game"></div>
+  </main>
+
+  <script src="js/player.js"></script>
+</body>
+</html>

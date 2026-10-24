@@ -1,0 +1,16 @@
+[
+  {
+    "id": "Castelvania",
+    "title": "Castelvania",
+    "system": "gba",
+    "rom": "roms/castle.gba",
+    "cover": "covers/castelvania.jpg"
+  },
+  {
+    "id": "mario-kart-ds",
+    "title": "Mario Kart DS",
+    "system": "ds",
+    "rom": "roms/mario-kart-ds.nds",
+    "cover": "covers/mario-kart-ds.jpg"
+  }
+]
