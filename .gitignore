@@ -1,3 +1,6 @@
+*.nds
+*.gba
+*.zip
 node_modules/
 roms/
 data/
