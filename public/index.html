@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sala giochi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="bar">
+    <a class="brand" href="index.html">Sala giochi</a>
+    <div class="seg" role="tablist" aria-label="Console">
+      <button class="seg-btn active" data-filter="all">Tutti</button>
+      <button class="seg-btn" data-filter="ds">Nintendo DS</button>
+      <button class="seg-btn" data-filter="gba">Game Boy Advance</button>
+    </div>
+    <input id="search" type="search" placeholder="Cerca un gioco" aria-label="Cerca un gioco">
+    <div id="user" class="user"></div>
+  </header>
+
+  <main class="wrap">
+    <section id="recent-section" hidden>
+      <div class="row-head"><h2>Continua a giocare</h2></div>
+      <div id="recent" class="recent"></div>
+    </section>
+
+    <section>
+      <div class="row-head"><h2>Libreria</h2><span id="count" class="muted"></span></div>
+      <div id="grid" class="grid"></div>
+      <p id="empty" class="empty" hidden>Nessun gioco trovato. Prova con un altro nome o cambia console.</p>
+    </section>
+  </main>
+
+  <script src="js/common.js"></script>
+  <script src="js/library.js"></script>
+</body>
+</html>

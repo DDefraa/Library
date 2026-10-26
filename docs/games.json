@@ -4,20 +4,20 @@
     "title": "Castelvania",
     "system": "gba",
     "rom": "roms/castle.gba",
-    "cover": "covers/castelvania.jpg"
+    "coverName": "covers/castelvania.jpg"
   },
   {
     "id": "Baldurs Gate",
     "title": "baldurs",
     "system": "gba",
     "rom": "roms/Baldurs.gba",
-    "cover": "covers/baldurs.jpg"
+    "coverName": "covers/baldurs.jpg"
   },
   {
     "id": "mario-kart-ds",
     "title": "Mario Kart DS",
     "system": "ds",
     "rom": "roms/mario-kart-ds.nds",
-    "cover": "covers/mario-kart-ds.jpg"
+    "coverName": "covers/mario-kart-ds.jpg"
   }
 ]
